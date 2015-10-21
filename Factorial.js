@@ -1,12 +1,22 @@
 Calcular numero factorial 
 
 
-function factorial(numero)
-{
-    if(numero<0)
-     return "Indefinido";
-    var factorial=1;
-    for(var i=numero;i>1;i--)
-      factorial*=i;
-    return factorial;
- }
+var answer = 1;
+var n = 10; //5! =120
+var i = 1;
+
+do{
+    if (n == 0) {
+
+        break;
+    }
+    //result  = result * i;
+    answer *= i;
+    i++;
+} while (i <= n);
+
+console.log("The factorial of "+ n +" es " + answer );
+
+
+
+
