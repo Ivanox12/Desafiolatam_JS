@@ -10,4 +10,3 @@ function factorial(numero)
       factorial*=i;
     return factorial;
  }
-
